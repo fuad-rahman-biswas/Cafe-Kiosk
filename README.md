@@ -1,6 +1,6 @@
 # Kedai Mamak Pak Din — Self-Order Kiosk 
 
-**HCI Assignment 2** — a multi-screen UI prototype incorporating visual and
+**HCI Assignment 2**: a multi-screen UI prototype incorporating visual and
 audio interaction techniques for a local organisation, built with a standard
 graphics API (**OpenGL**, via GLUT for windowing/input, and `pygame.mixer`
 for audio).
@@ -10,10 +10,6 @@ for audio).
 For the full HCI rationale behind every design decision, see
 [`docs/design_rationale.docx`](docs/design_rationale.docx).
 
-> **Note on the name:** "Kedai Mamak Pak Din" is a generic, fictional stall
-> name chosen to represent the *mamak stall* business type broadly (a very
-> common local eatery format in Malaysia), per the assignment's "local
-> organisation" brief — it isn't based on a specific real chain.
 
 ## Screenshots
 
@@ -47,7 +43,7 @@ For the full HCI rationale behind every design decision, see
 *Kedai Mamak Pak Din* is a small local mamak stall — the kind of 24-hour,
 open-air eatery found throughout Malaysia, serving roti, rice/noodle dishes,
 and drinks like teh tarik. This prototype is a **self-order touchscreen
-kiosk** for the counter — customers browse by category, review and adjust
+kiosk** for the counter where the customers browse by category, review and adjust
 their order, confirm it, and get a digital receipt (with the total rounded
 to the nearest 5 sen, matching real cash-rounding practice in Malaysia).
 
