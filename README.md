@@ -1,4 +1,4 @@
-# Kedai Mamak Pak Din — Self-Order Kiosk (Beta Prototype)
+# Kedai Mamak Pak Din — Self-Order Kiosk 
 
 **HCI Assignment 2** — a multi-screen UI prototype incorporating visual and
 audio interaction techniques for a local organisation, built with a standard
@@ -39,8 +39,6 @@ For the full HCI rationale behind every design decision, see
 - [Project Structure](#project-structure)
 - [Setup & Running](#setup--running)
 - [Controls](#controls)
-- [Known Limitations](#known-limitations-beta-scope)
-- [Next Steps](#next-steps-for-a-final-version)
 
 ---
 
@@ -185,29 +183,3 @@ python main.py
 - **Receipt:** click "Start New Order" once totals have finished "printing" in
 - **Mute / press `M`** — toggles all audio
 - **Press `Q` or `Esc`** — quit
-
----
-
-## Known limitations (beta scope)
-
-This is a beta/proof-of-concept, not a production app:
-- No persistence — cart and order history reset on new order or app restart
-- No payment integration
-- Audio assets are procedurally generated placeholder tones, not real recorded audio
-- Text rendering uses GLUT bitmap fonts (basic, not anti-aliased)
-- No formal usability testing with real users has been conducted yet
-- Layout assumes a roughly fixed window size; not tested on an actual touchscreen
-- Menu, categories, and prices are illustrative and not based on a real stall's actual pricing
-
-See `docs/design_rationale.docx` (Section 9) for the full limitations and
-future-work discussion.
-
----
-
-## Next steps for a final version
-
-- Replace placeholder tones with real recorded kitchen/stall ambience and sounds
-- Add order customisation (spice level, add-ons, roti fillings)
-- Run a moderated usability test with representative users and iterate
-- Add basic accessibility support (larger text mode, high-contrast mode, Bahasa Malaysia language toggle)
-- Touch-target sizing pass for a real touchscreen kiosk
