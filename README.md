@@ -19,7 +19,7 @@ For the full HCI rationale behind every design decision, see
 
 | Splash | Menu |
 |---|---|
-| ![Splash screen](assets/screenshots/01_splash.png) | ![Menu screen](assets/screenshots/02_menu.png) |
+| ![Splash screen](https://github.com/fuad-rahman-biswas/HCI-Assignment/blob/main/assets/screenshots/01_splash.png) | ![Menu screen](assets/screenshots/02_menu.png) |
 
 | Cart | Order Confirmation |
 |---|---|
